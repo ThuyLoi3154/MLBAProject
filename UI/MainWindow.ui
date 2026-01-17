@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1341</width>
+    <height>874</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">BACKGROUND:rgb(195, 195, 213);
+color: black</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1931</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">BACKGROUND:rgb(242, 231, 226);
+color:rgb(97, 99, 50)</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <widget class="QWidget" name="REPORT">
+     <attribute name="icon">
+      <iconset>
+       <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/report.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/report.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>REPORT</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBoxChartVisualization">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>20</y>
+        <width>721</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sitka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> color:rgb(49, 49, 49);background-color: rgb(237, 243, 233);
+border-radius: 40px</string>
+      </property>
+      <property name="title">
+       <string>  Chart Visualization:</string>
+      </property>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>701</width>
+         <height>651</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout"/>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxFunctions_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>561</width>
+        <height>671</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sitka</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:40px; background:rgb(225, 198, 214);
+ color:rgb(49, 49, 49)</string>
+      </property>
+      <property name="title">
+       <string>    Functions:</string>
+      </property>
+      <widget class="QPushButton" name="pushButtonStatisticsOnCustomersandSellers">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnCustomersandSellers{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white;padding-left:-70px; padding-right:65px}
+
+
+QPushButton#pushButtonStatisticsOnCustomersandSellers:pressed{
+	padding-left: -20px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnCustomersandSellers:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Statistics on Customers and sellers </string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/1.Customer and Sellers.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/1.Customer and Sellers.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticsOnOrders">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>110</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnOrders{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white; padding-left: -135px; padding-right: 135px}
+
+QPushButton#pushButtonStatisticsOnOrders:pressed{
+	padding-left: -135px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnOrders:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Statistics on Orders</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/2.Orders.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/2.Orders.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>36</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticsOnOrderValuesAndShippingCost">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnOrderValuesAndShippingCost{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white;padding-right:60px;padding-left:10px}
+
+
+QPushButton#pushButtonStatisticsOnOrderValuesAndShippingCost:pressed{
+	padding-left: 10px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnOrderValuesAndShippingCost:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string> Statistics on Order Values and Shipping Costs</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/3.Ordervalue and Shipping Costs.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/3.Ordervalue and Shipping Costs.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>36</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonPurchaseValueByCategory">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>230</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonPurchaseValueByCategory{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white; padding-right:100px;padding-left:-75px;}
+
+QPushButton#pushButtonPurchaseValueByCategory:pressed{
+	padding-left: -75px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonPurchaseValueByCategory:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Purchase value by category     </string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/4.valueByCategory.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/4.valueByCategory.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticsOnReviews">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>470</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnReviews{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white; padding-right:80px;padding-left:-175px}
+QPushButton#pushButtonStatisticsOnReviews:pressed{
+	padding-left: -75px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnReviews:hover{background-color:white;color:rgb(0, 0, 0);}
+</string>
+       </property>
+       <property name="text">
+        <string>Statistics on Reviews </string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/8.Reviews.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/8.Reviews.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoRepeat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticsOnSalesGeolocation">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>590</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizeIncrement">
+        <size>
+         <width>34</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnSalesGeolocation{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white; padding-right:90px; padding-left:-90px}
+
+QPushButton#pushButtonStatisticsOnSalesGeolocation:pressed{
+	padding-left: -40px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnSalesGeolocation:hover{background-color:rgb(255, 255, 255);color:rgb(0, 0, 0);}
+</string>
+       </property>
+       <property name="text">
+        <string>Statistics on Sales geolocation</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/10.SalesGeo.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/10.SalesGeo.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="autoRepeat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticsOnSelling">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>290</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnSelling{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white;padding-left:-170px; padding-right:100px}
+
+QPushButton#pushButtonStatisticsOnSelling:pressed{
+	padding-left: -170px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnSelling:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Statistics on Selling</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/5.selling.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/5.selling.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticOnOrderStatus">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>350</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticOnOrderStatus{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white;padding-left:-130px; padding-right: 100px}
+
+QPushButton#pushButtonStatisticOnOrderStatus:pressed{
+	padding-left: -130px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticOnOrderStatus:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Statistic on order status</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/6.order status.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/6.order status.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>37</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonPaymentMethods">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>530</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sitka Small Semibold</family>
+         <pointsize>10</pointsize>
+         <weight>7</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonPaymentMethods{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white; padding-left:-110px; padding-right: 55px}
+
+QPushButton#pushButtonPaymentMethods:pressed{
+	padding-left: -110px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonPaymentMethods:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Statistics on Payment Methods</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/9.PaymentMethods.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/9.PaymentMethods.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonStatisticsOnFreightTimeAndCost">
+       <property name="geometry">
+        <rect>
+         <x>21</x>
+         <y>410</y>
+         <width>515</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonStatisticsOnFreightTimeAndCost{font: 63 10pt &quot;Sitka Small Semibold&quot;;background:rgb(111, 165, 206); border-radius: 20px; color: white; padding-left:-40px;padding-right:90px}
+
+QPushButton#pushButtonStatisticsOnFreightTimeAndCost:pressed{
+	padding-left: -40px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonStatisticsOnFreightTimeAndCost:hover{background-color:white;color:rgb(0, 0, 0);}</string>
+       </property>
+       <property name="text">
+        <string>Statistic on Freight time and Costs</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/7.Freighttime and cost.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/REPORT/7.Freighttime and cost.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="SEGMENT">
+     <attribute name="icon">
+      <iconset theme="Normal">
+       <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/segment.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/segment.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>SEGMENT</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBoxStatisticsOnRFM">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>891</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>0</width>
+        <height>200</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:rgb(239, 238, 248); border-radius: 40px; color:black</string>
+      </property>
+      <property name="title">
+       <string>   STATISTICS OF RECENCY, FREQUENCY AND MONETARY:</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QTableWidget" name="tableWidgetStatistic">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>180</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777100</width>
+           <height>150</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>0</width>
+           <height>180</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: rgba(229, 213, 255,0.4);
+border-radius: 0px
+</string>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+         <attribute name="horizontalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>150</number>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>48</number>
+         </attribute>
+         <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderCascadingSectionResizes">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>40</number>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>true</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>customer_unique_id</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sylfaen</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="textAlignment">
+           <set>AlignCenter</set>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/customer_unique_id.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/customer_unique_id.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>order_purchase_timestamp</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sylfaen</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="textAlignment">
+           <set>AlignCenter</set>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/purchase_time.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/purchase_time.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recency </string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sylfaen</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="textAlignment">
+           <set>AlignCenter</set>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/recency.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/recency.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Frequency</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sylfaen</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="textAlignment">
+           <set>AlignCenter</set>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/frequency.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/frequency.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Monetary</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sylfaen</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="textAlignment">
+           <set>AlignCenter</set>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/monetary.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/monetary.png</iconset>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Cluster</string>
+          </property>
+          <property name="font">
+           <font>
+            <family>Sylfaen</family>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="textAlignment">
+           <set>AlignCenter</set>
+          </property>
+          <property name="icon">
+           <iconset>
+            <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/cluster.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/SEGMENT/cluster.png</iconset>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxAnalysis">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>260</y>
+        <width>591</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(239, 238, 248);color: black</string>
+      </property>
+      <property name="title">
+       <string>    ANALYSIS:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>551</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayoutRadiusAnalysis"/>
+      </widget>
+     </widget>
+     <widget class="QScrollBar" name="verticalScrollBar">
+      <property name="geometry">
+       <rect>
+        <x>1910</x>
+        <y>0</y>
+        <width>21</width>
+        <height>1601</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxTreeMap">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>10</y>
+        <width>411</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(239, 238, 248);color: black</string>
+      </property>
+      <property name="title">
+       <string>   TREEMAP:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>381</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayoutTreeMap"/>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox3DModel">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>260</y>
+        <width>381</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(239, 238, 248);color: black</string>
+      </property>
+      <property name="title">
+       <string>   3D MODEL:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>351</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout3DModel"/>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxRadiusAnalysis">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>520</y>
+        <width>701</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(239, 238, 248);color: black</string>
+      </property>
+      <property name="title">
+       <string>   RADIUS ANALYSIS:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_16">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>661</width>
+         <height>211</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayoutRadiusAnalysis_7"/>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="GroupBoxDistribution">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>260</y>
+        <width>311</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 30px; background:rgb(239, 238, 248); color: black</string>
+      </property>
+      <property name="title">
+       <string>    DISTRIBUTION:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>21</y>
+         <width>271</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayoutDistribution_2"/>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="RECOMMEND">
+     <attribute name="icon">
+      <iconset>
+       <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/Recommend.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/Recommend.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>RECOMMEND</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEditCustomer_unique_id">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>50</y>
+        <width>631</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>.VnClarendon</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: white; 
+border-radius: 30px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelCustomer_unique_id">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>50</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+border-radius: 30px;
+background:rgb(137, 147, 145);
+color: white</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;customer_unique_id: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxRecommendedProducts">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>1241</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">BORDER-RADIUS:40PX; 
+BACKGROUND: rgb(225, 198, 214);
+color: rgb(99, 81, 161)</string>
+      </property>
+      <property name="title">
+       <string>     RECOMMENDED PRODUCTS: </string>
+      </property>
+      <widget class="QListWidget" name="listWidgetRecommendedProducts">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>40</y>
+         <width>1141</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(255, 255, 255); border-radius:20px</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonGo">
+      <property name="geometry">
+       <rect>
+        <x>1070</x>
+        <y>60</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#pushButtonGo{font: 63 9pt &quot;Sitka Small Semibold&quot;;
+border-radius: 20px;
+background: rgb(214, 200, 195); color:black}
+
+QPushButton#pushButtonGo:pressed{
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonGo:hover{background-color:rgb(138, 130, 127);color:rgb(255, 255, 255);}
+</string>
+      </property>
+      <property name="text">
+       <string>GO</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="PREDICT">
+     <attribute name="icon">
+      <iconset>
+       <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/predictive.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/predictive.png</iconset>
+     </attribute>
+     <attribute name="title">
+      <string>PREDICT</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBoxPredictSelection">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>381</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(245, 220, 255);
+color: black</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QRadioButton" name="radioButtonSpecificProduct">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>140</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(204, 50, 137)</string>
+       </property>
+       <property name="text">
+        <string>Specific Product</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/Specific Product.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/Specific Product.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButtonAllProducts">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>250</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(204, 50, 137)</string>
+       </property>
+       <property name="text">
+        <string>All Products</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/All Products.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/All Products.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButtonProduct_category_name">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(204, 50, 137)</string>
+       </property>
+       <property name="text">
+        <string>Product Category</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/categories.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/categories.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditProduct_category_name">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: white; 
+border-radius: 20px;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditSpecificProduct">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>190</y>
+         <width>311</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: white; 
+border-radius: 20px;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxTimePredict">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>391</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(225, 254, 255);color: black</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QRadioButton" name="radioButtonWeek">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>291</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(179, 119, 89);</string>
+       </property>
+       <property name="text">
+        <string>Prediction Per Week</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/week.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/week.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="radioButtonMonth">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>120</y>
+         <width>291</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(179, 119, 89);</string>
+       </property>
+       <property name="text">
+        <string>Prediction Per Month</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/month.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/predict/month.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxChart">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>10</y>
+        <width>881</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(255, 255, 235);color: black</string>
+      </property>
+      <property name="title">
+       <string>   CHART:</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget_17">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>801</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayoutChart"/>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxRadiusPredictBasedOnUserInput">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>390</y>
+        <width>881</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sylfaen</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 40px;background:rgb(195, 235, 235);color: black</string>
+      </property>
+      <property name="title">
+       <string>   PREDICTION BASED ON USER'S INPUT:</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>40</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sitka</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(55, 108, 255);</string>
+       </property>
+       <property name="text">
+        <string>Price:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditPrice">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>40</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255); border-radius: 20px
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sitka</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(55, 108, 255);</string>
+       </property>
+       <property name="text">
+        <string>Freight_value:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditFreight_value">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>90</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255); border-radius: 20px
+</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>140</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sitka</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(55, 108, 255);</string>
+       </property>
+       <property name="text">
+        <string>Product_name_lenght:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditProduct_name_lenght">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>140</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255); border-radius: 20px
+</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>190</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sitka</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(55, 108, 255);</string>
+       </property>
+       <property name="text">
+        <string>Product_photos_qty:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditProduct_photos_qty">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>190</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255); border-radius: 20px
+</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sitka</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(55, 108, 255);</string>
+       </property>
+       <property name="text">
+        <string>Estimated_delivery_time:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEditEstimated_delivery_time">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>240</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255); border-radius: 20px
+</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonConfirm">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>300</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton#pushButtonConfirm{font: 63 12pt &quot;Sitka Small Semibold&quot;;
+border-radius: 20px;
+background:rgb(147, 147, 110); color:WHITE}
+
+QPushButton#pushButtonConfirm:pressed{
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonConfirm:hover{background-color: rgb(221, 225, 171);color:BLACK;}
+</string>
+       </property>
+       <property name="text">
+        <string>CONFIRM</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxPayment_value">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>90</y>
+         <width>291</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 170, 255);</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sitka</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(255, 255, 255)</string>
+        </property>
+        <property name="text">
+         <string>Payment_value:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEditPayment_value">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>70</y>
+          <width>251</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Sylfaen</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255); border-radius: 20px
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSubmit">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>650</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Sitka Small Semibold</family>
+        <pointsize>12</pointsize>
+        <weight>7</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#pushButtonSubmit{font: 63 12pt &quot;Sitka Small Semibold&quot;;
+border-radius: 20px;
+background:rgb(138, 130, 127); color:WHITE}
+
+QPushButton#pushButtonSubmit:pressed{
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color:rgb(106, 106, 0);}
+QPushButton#pushButtonSubmit:hover{background-color: rgb(214, 200, 195);color:BLACK;}
+</string>
+      </property>
+      <property name="text">
+       <string>SUBMIT</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1341</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSystem">
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>System</string>
+    </property>
+    <addaction name="actionL_o_g_O_u_t"/>
+    <addaction name="separator"/>
+    <addaction name="actionE_x_i_t"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_us"/>
+    <addaction name="separator"/>
+    <addaction name="actionI_n_s_t_r_u_c_t_i_o_n"/>
+   </widget>
+   <addaction name="menuSystem"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionL_o_g_O_u_t">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/Log Out.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/Log Out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Log Out</string>
+   </property>
+   <property name="iconText">
+    <string>LogOut</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionE_x_i_t">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/exit.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::QuitRole</enum>
+   </property>
+  </action>
+  <action name="actionAbout_us">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/AboutUs.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/AboutUs.png</iconset>
+   </property>
+   <property name="text">
+    <string>About us</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+  <action name="actionI_n_s_t_r_u_c_t_i_o_n">
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/Instruction.png</normaloff>../../../HKII NĂM 2/HỌC MÁY/FINAL/ICON/mainwindow/Instruction.png</iconset>
+   </property>
+   <property name="text">
+    <string>Instruction</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
